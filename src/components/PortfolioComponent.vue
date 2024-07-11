@@ -83,7 +83,7 @@ export default {
           title: 'Abc',
           description: 'xxxx',
           image: 'img/portfolio/7.jpg',
-          link: 'https://rcakradana.me'
+          link: 'https://rifaulfahribadi.github.io'
         },
         {
           title: 'BCD',
