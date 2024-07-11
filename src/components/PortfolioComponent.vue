@@ -88,7 +88,7 @@ export default {
         {
           title: 'BCD',
           description: 'yyyy',
-          image: 'img/portfolio/ktp.jpeg',
+          image: 'img/portfolio/7.jpg',
           link: 'link'
         }
       ],
