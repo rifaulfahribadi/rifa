@@ -24,7 +24,7 @@
             </p>
           </div>
           <div class="edrea_tm_button" id="aboutPopup">
-            <a href="#">Learn More</a>
+            <a href="#">Don't Click !!</a>
           </div>
         </div>
       </div>
