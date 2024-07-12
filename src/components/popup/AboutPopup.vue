@@ -11,7 +11,7 @@
               <div class="author">
                 <div class="avatar_image">
                   <img src="img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="img/about/1.jpg"></div>
+                  <div class="main" data-img-url="img/about/2.jpg"></div>
                 </div>
                 <div class="short">
                   <h3 class="name">
@@ -67,7 +67,7 @@
                 </ul>
               </div>
               <div class="edrea_tm_button full">
-                <a href="img/about/1.jpg" download>Download CV</a>
+                <a href="https://drive.google.com/drive/folders/1CDI3TuRIMbpV0otxO2QqAIKvj3VjWxMc?usp=sharing" target="_blank" download>Download CV</a>
               </div>
             </div>
           </div>
@@ -132,10 +132,11 @@
                 </div>
                 <div class="list">
                   <ul>
-                    <li v-for="(partner, i) in aboutData.partnersLogos">
+                    <li v-for="(partner, i) in aboutData.partnersLogos" :key="i">
                       <div class="list_inner">
-                        <img :src="partner" alt="" />
-                        <a class="cavani_tm_full_link" href="#"></a>
+                        <a :href="partner.url" target="_blank">
+                          <img :src="partner.img" alt="" />
+                        </a>
                       </div>
                     </li>
                   </ul>
@@ -191,7 +192,7 @@
                       <div class="list_inner">
                         <div class="myCircle" data-value="-1.0"></div>
 
-                        <div class="title"><span>Wanita</span></div>
+                        <div class="title"><span>Woman</span></div>
                       </div>
                     </li>
                   </ul>
@@ -227,7 +228,7 @@
                           <div class="image">
                             <div
                               class="main"
-                              data-img-url="img/testimonials/1.jpg"
+                              data-img-url="img/testimonials/rifa.jpg"
                             ></div>
                           </div>
                           <div class="info">
@@ -249,7 +250,7 @@
                           <div class="image">
                             <div
                               class="main"
-                              data-img-url="img/testimonials/2.jpg"
+                              data-img-url="img/testimonials/panji.jpg"
                             ></div>
                           </div>
                           <div class="info">
@@ -273,7 +274,7 @@
                           <div class="image">
                             <div
                               class="main"
-                              data-img-url="img/testimonials/3.jpg"
+                              data-img-url="img/testimonials/ken.jpg"
                             ></div>
                           </div>
                           <div class="info">
@@ -384,12 +385,12 @@ export default {
           },
         ],
         partnersLogos: [
-          "img/partners/1.png",
-          "img/partners/2.png",
-          "img/partners/3.png",
-          "img/partners/4.png",
-          "img/partners/4.png",
-          "img/partners/4.png",
+          { img: "img/partners/6.png", url: "https://focustic.id" },
+          { img: "img/partners/7.png", url: "https://internak.id" },
+          { img: "img/partners/8.png", url: "https://komads.id/whatsapp" },
+          { img: "img/partners/9.png", url: "komform.id" },
+          { img: "img/partners/10.png", url: "kompage.id" },
+          { img: "img/partners/6.png", url: "https://rifaulfahribadi.github.io" },
         ],
       },
     };
