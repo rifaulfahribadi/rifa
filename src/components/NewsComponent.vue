@@ -3,7 +3,7 @@
     <div class="section_inner">
       <div class="edrea_tm_news swiper-section">
         <div class="edrea_tm_main_title">
-          <h3>Latest <span class="coloring">News</span></h3>
+          <h3>Portofolio <span class="coloring">& Article</span></h3>
         </div>
         <div class="news_list">
           <swiper :loop="false" :slidesPerView="1" :spaceBetween="0" :loopAdditionalSlides="1" :autoplay="{
@@ -123,78 +123,55 @@ export default {
     return {
       newsData: [
         {
-          title: "Building brands through customer service",
+          title: "Unlocking the Secrets of Exceptional CX",
           img: "img/news/1.jpg",
-          tag: "Branding",
-          link: "https://rcakradana.me",
+          tag: "Article",
+          link: "https://tender-cadet-d59.notion.site/Unlocking-the-Secrets-of-Exceptional-Customer-Experience-bfe39548dfce48be95c530f0b17f5700?pvs=4",
           des: [
-            "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-            "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-            "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+            "Pengalaman pelanggan (CX) adalah faktor kunci dalam menentukan kesuksesan produk. Dengan mengadopsi pendekatan yang berpusat pada pengguna, perusahaan dapat memastikan setiap interaksi memberikan nilai tambah.",
+            "Mengidentifikasi dan memahami pelanggan yang tidak puas adalah langkah pertama dalam membangun produk yang lebih baik. Empati dan pemahaman mendalam memungkinkan perusahaan mengubah tantangan menjadi peluang inovasi.",
+            "Loyalitas pelanggan di era digital lebih dari sekadar kepuasan; ini tentang membangun koneksi emosional. Personalisasi dan pengalaman yang mulus adalah elemen penting dalam menciptakan loyalitas yang tahan lama.",
+            "Customer Identity and Access Management (CIAM) menyediakan pandangan 360 derajat tentang pelanggan, membuka pintu bagi personalisasi dan keamanan yang ditingkatkan.",
+            "Insight dari CX Connect Conference menekankan pentingnya tindakan cepat dan efektif dalam menerapkan wawasan yang diperoleh, dari memperkuat peta empati hingga menyempurnakan perjalanan pelanggan.",
           ],
         },
         {
-          title: "Unstoppable Jamstack and Gatsby opportunity",
+          title: "Product Managers: Beyond Feature Creation",
           img: "img/news/2.jpg",
-          tag: "Design",
-          link: "https://rcakradana.me",
+          tag: "Article",
+          link: "https://tender-cadet-d59.notion.site/Product-Managers-Beyond-Feature-Creation-7da11dcce430430983e688dd3e69702a?pvs=4",
           des: [
-            "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-            "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-            "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+            "Product Managers tidak hanya bertanggung jawab untuk menciptakan fitur-fitur baru. Tugas utama mereka adalah memahami dan menyelesaikan masalah pengguna.",
+            "Fokus utama seorang Product Manager harus pada identifikasi masalah pengguna dan mencari solusi yang efektif. Ini memastikan fitur yang dikembangkan benar-benar bermanfaat.",
+            "Pendekatan yang berpusat pada pengguna membantu dalam mengidentifikasi kebutuhan nyata dan menyelaraskan pengembangan produk dengan harapan pengguna.",
+            "Kolaborasi dengan tim lintas fungsi adalah kunci dalam menciptakan solusi inovatif yang memenuhi kebutuhan pengguna dan bisnis.",
+            "Dengan selalu berfokus pada pemecahan masalah pengguna, Product Managers dapat menciptakan produk yang lebih relevan dan bernilai tinggi bagi pasar.",
           ],
         },
         {
-          title: "Electron framework adds encryption API",
+          title: "Ensuring Impactful Prioritization as a PM",
           img: "img/news/3.jpg",
-          tag: "Media",
-          link: "https://rcakradana.me",
+          tag: "Article",
+          link: "https://tender-cadet-d59.notion.site/Ensuring-Impactful-Prioritization-as-a-Product-Manager-dd6b9fb213e74f479e2ec92716a2510f?pvs=4",
           des: [
-            "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-            "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-            "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+            "Product Managers harus memastikan bahwa prioritas yang ditentukan memberikan dampak signifikan pada produk. Ini melibatkan evaluasi mendalam dan analisis data.",
+            "Menggunakan kerangka kerja seperti RICE (Reach, Impact, Confidence, Effort) dapat membantu dalam menentukan prioritas yang tepat.",
+            "Kolaborasi dengan tim lintas fungsi dan mendapatkan masukan dari stakeholder kunci sangat penting untuk validasi keputusan prioritas.",
+            "Pemantauan dan evaluasi berkelanjutan dari hasil implementasi prioritas memastikan bahwa keputusan yang diambil memberikan hasil yang diharapkan.",
+            "Dengan pendekatan yang sistematis dan berbasis data, Product Managers dapat memastikan bahwa prioritas yang ditetapkan benar-benar memberikan nilai tambah bagi produk dan pengguna.",
           ],
         },
         {
-          title: "Sentry for JavaScript monitors release health",
+          title: "Mastering Agile: Practices and Pitfalls",
           img: "img/news/4.jpg",
-          tag: "Technology",
-          link: "https://rcakradana.me",
+          tag: "Article",
+          link: "https://tender-cadet-d59.notion.site/Mastering-Agile-Practices-and-Pitfalls-7f74933b4b3d46f88288333cce3207cf?pvs=4",
           des: [
-            "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-            "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-            "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-          ],
-        },
-        {
-          title: "Five reasons to begin a Packt subscription",
-          img: "img/news/5.jpg",
-          tag: "Lifestyle",
-          link: "https://rcakradana.me",
-          des: [
-            "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-            "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-            "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-          ],
-        },
-        {
-          title: "Why developers are so divided over WordPress",
-          img: "img/news/6.jpg",
-          tag: "Modern",
-          link: "https://rcakradana.me",
-          des: [
-            "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-            "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-            "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-          ],
-        },
-        {
-          title: "HIDUP MATI POKOKNYA HIDUP AJA",
-          img: "img/news/6.jpg",
-          tag: "Modern",
-          link: "https://xnxx.com",
-          des: [
-            "Anjaydfffjdf jdshkhskhdshkdhhskdhskd kjdsdskdhksdhkshd skdhnskdsk",
+            "Agile methodology adalah pendekatan manajemen proyek yang berfokus pada iterasi cepat dan respons terhadap perubahan.",
+            "Kesalahan umum dalam Agile meliputi kurangnya komunikasi, dokumentasi yang tidak memadai, dan kegagalan dalam mengadaptasi perubahan.",
+            "Agile yang benar melibatkan kolaborasi tim yang kuat, umpan balik berkelanjutan, dan iterasi yang cepat untuk terus meningkatkan produk.",
+            "Menekankan pada nilai-nilai inti Agile seperti kolaborasi tim, tanggapan terhadap perubahan, dan pengiriman perangkat lunak yang berfungsi secara teratur.",
+            "Dengan menghindari kesalahan umum dan berfokus pada prinsip-prinsip Agile, tim dapat mencapai efisiensi dan efektivitas yang lebih tinggi dalam pengembangan produk.",
           ],
         },
       ],

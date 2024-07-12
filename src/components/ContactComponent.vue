@@ -3,7 +3,7 @@
     <div class="section_inner">
       <div class="edrea_tm_contact">
         <div class="edrea_tm_main_title">
-          <h3>Get in <span class="coloring">Touch</span></h3>
+          <h3>Hire <span class="coloring">Me</span></h3>
         </div>
         <div class="wrapper">
           <div class="left">

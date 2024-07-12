@@ -3,7 +3,7 @@
     <div class="section_inner">
       <div class="edrea_tm_portfolio swiper-section">
         <div class="edrea_tm_main_title">
-          <h3>Creative <span class="coloring">Portfolio</span></h3>
+          <h3>Latest <span class="coloring">Achievements</span></h3>
         </div>
         <div class="portfolio_list gallery_zoom">
           <swiper :loop="false" :slidesPerView="1" :spaceBetween="0" :loopAdditionalSlides="1" :autoplay="{

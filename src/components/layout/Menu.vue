@@ -8,11 +8,11 @@
     </li>
     <li :class="navFuntions.activeNavCls('portfolio')">
       <a href="#portfolio" @click="navFuntions.activeSection('portfolio')"
-        >Portfolio</a
+        >Awards</a
       >
     </li>
     <li :class="navFuntions.activeNavCls('news')">
-      <a href="#news" @click="navFuntions.activeSection('news')">News</a>
+      <a href="#news" @click="navFuntions.activeSection('news')">Portofolio</a>
     </li>
     <li :class="navFuntions.activeNavCls('contact')">
       <a href="#contact" @click="navFuntions.activeSection('contact')"
