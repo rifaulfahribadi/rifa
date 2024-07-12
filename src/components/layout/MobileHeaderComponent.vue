@@ -3,7 +3,7 @@
     <div class="topbar_inner">
       <div class="logo">
         <a href="#" @click="navFuntions.activeSection('home')"
-          ><img src="img/logo/logo.png" alt=""
+          ><img src="img/logo/smedilogo.png" alt=""
         /></a>
       </div>
       <div class="trigger">
