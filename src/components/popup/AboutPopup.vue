@@ -315,7 +315,7 @@ export default {
         lastName: "Ribadi",
         address: "Jakarta, Indonesia",
         phn: "+62 838 8907 5330",
-        email: "rifaulfahribadi@gmail.com",
+        email: "rifaulfahribadi16@gmail.com",
         serviceLists: [
           "Product Management",
           "Project Management",
