@@ -58,7 +58,7 @@
                     <div class="list_inner">
                       <i class="icon-mail-1"></i>
                       <span
-                        ><a :href="`mailto:${aboutData.email}`" target="_blank">{{
+                        ><a :href="`mailto:rifaulfahribadi16@gmail.com}`" target="_blank">{{
                           aboutData.email
                         }}</a></span
                       >
@@ -315,7 +315,7 @@ export default {
         lastName: "Ribadi",
         address: "Jakarta, Indonesia",
         phn: "+62 838 8907 5330",
-        email: "rifaulfahribadi16@gmail.com",
+        email: "rifaulfahribadi16",
         serviceLists: [
           "Product Management",
           "Project Management",
