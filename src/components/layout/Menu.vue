@@ -7,12 +7,12 @@
       <a href="#about" @click="navFuntions.activeSection('about')">About</a>
     </li>
     <li :class="navFuntions.activeNavCls('portfolio')">
-      <a href="#portfolio" @click="navFuntions.activeSection('portfolio')"
+      <a href="#awards" @click="navFuntions.activeSection('portfolio')"
         >Awards</a
       >
     </li>
     <li :class="navFuntions.activeNavCls('news')">
-      <a href="#news" @click="navFuntions.activeSection('news')">Portofolio</a>
+      <a href="#portofolio" @click="navFuntions.activeSection('news')">Portofolio</a>
     </li>
     <li :class="navFuntions.activeNavCls('contact')">
       <a href="#contact" @click="navFuntions.activeSection('contact')"
