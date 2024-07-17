@@ -1,5 +1,5 @@
 <template>
-  <div class="edrea_tm_section" id="portfolio">
+  <div class="edrea_tm_section" id="awards">
     <div class="section_inner">
       <div class="edrea_tm_portfolio swiper-section">
         <div class="edrea_tm_main_title">
@@ -71,7 +71,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { swiperSliderCustomSlider } from "../utilits";
 
 export default {
-  name: `PortfolioComponent`,
+  name: `AwardsComponent`,
   components: {
     Swiper,
     SwiperSlide,

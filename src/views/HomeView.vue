@@ -30,11 +30,15 @@
       <!-- /ABOUT -->
 
       <!-- PORTFOLIO -->
-      <PortfolioComponent />
+      <AwardsComponent />
+      <!-- /PORTFOLIO -->
+
+      <!-- PORTFOLIO -->
+      <BlogComponent />
       <!-- /PORTFOLIO -->
 
       <!-- NEWS -->
-      <NewsComponent />
+      <PortofolioComponent />
       <!-- /NEWS -->
 
       <!-- CONTACT -->
@@ -61,8 +65,9 @@ import HomeComponent from "../components/HomeComponent.vue";
 import CursorComponent from "../components/layout/CursorComponent.vue";
 import HeaderComponent from "../components/layout/HeaderComponent.vue";
 import SettingsComponent from "../components/layout/SettingsComponent.vue";
-import NewsComponent from "../components/NewsComponent.vue";
-import PortfolioComponent from "../components/PortfolioComponent.vue";
+import PortofolioComponent from "../components/PortofolioComponent.vue";
+import AwardsComponent from "../components/AwardsComponent.vue";
+import BlogComponent from "../components/BlogComponent.vue";
 import { dataImage, imgToSVG } from "../utilits";
 import { waves } from "../waves";
 
@@ -77,13 +82,13 @@ export default {
     HomeComponent,
     HomeComponent,
     AboutComponent,
-    PortfolioComponent,
-    NewsComponent,
+    PortofolioComponent,
     ContactComponent,
     HeaderComponent,
     SettingsComponent,
     CursorComponent,
-    PortfolioComponent,
+    AwardsComponent,
+    BlogComponent,
     PreloaderComponent,
     MfpPopup,
     EdreaPopup,

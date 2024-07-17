@@ -1,5 +1,5 @@
 <template>
-  <div class="edrea_tm_section" id="news">
+  <div class="edrea_tm_section" id="portofolio">
     <div class="section_inner">
       <div class="edrea_tm_news swiper-section">
         <div class="edrea_tm_main_title">
@@ -91,7 +91,7 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { swiperSliderCustomSlider } from "../utilits";
 
 export default {
-  name: `NewsComponent`,
+  name: `PortofolioComponent`,
   components: {
     Swiper,
     SwiperSlide,
