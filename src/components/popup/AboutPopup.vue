@@ -27,18 +27,18 @@
                 <ul>
                   <li>
                     <div class="list_inner">
-                      <i class="icon-user"></i>
-                      <span
-                        >{{ aboutData.firstName }}
-                        {{ aboutData.lastName }}</span
+                      <i class="icon-instagram-3"></i>
+                      <span>
+                        <a href="https://www.instagram.com/rifaulfahribadi/" target="_blank">
+                        {{ aboutData.instagram }}</a></span
                       >
                     </div>
                   </li>
                   <li>
                     <div class="list_inner">
-                      <i class="icon-location"></i>
+                      <i class="icon-linkedin-2"></i>
                       <span
-                        ><a href="#" class="href_location">{{
+                        ><a href="https://www.linkedin.com/in/rifaulfahribadi/" class="href_location">{{
                           aboutData.address
                         }}</a></span
                       >
@@ -313,9 +313,10 @@ export default {
       aboutData: {
         firstName: "Rifa Ulfah",
         lastName: "Ribadi",
-        address: "Jakarta, Indonesia",
+        address: "rifaulfahribadi",
         phn: "+62 838 8907 5330",
         email: "rifaulfahribadi16",
+        instagram: "rifaulfahribadi",
         serviceLists: [
           "Product Management",
           "Project Management",
